@@ -5,8 +5,11 @@ import domain.Exercise;
 public class TestResult {
 
     public static void main(String[] args) {
-
-        int R=10;
-        System.out.println("Area of a circle for R="+R+"m is "+Exercise.Calculate(R)+"m"+'\u00B2');
+        Long num = 370l;
+        System.out.printf("The num(%d)\nIs armstrong number: %b\n", num,Exercise.ArmstrongNumber(num));
+        num = 912985153l;
+        System.out.printf("The num(%d)\nIs armstrong number: %b\n", num,Exercise.ArmstrongNumber(num)); 
+        num = 123l;
+        System.out.printf("The num(%d)\nIs armstrong number: %b\n", num,Exercise.ArmstrongNumber(num)); 
     }
 }
