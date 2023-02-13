@@ -6,7 +6,7 @@
 Перевірте чи є задане число числом Армстронга
 
 # Скріншот працюючої програми
-![README](images/task.png)
+![README](image/task.png)
 
 
 # Код класу Exercise
